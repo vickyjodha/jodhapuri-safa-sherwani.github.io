@@ -1,0 +1,25 @@
+ .slide div img {
+     height: 50rem;
+ }
+
+ /* small moblie size css */
+
+ @media (max-width: 576px) {
+     .slide div img {
+         height: 20rem;
+     }
+ }
+
+ /* normal moblie size */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .slide div img {
+         height: 20rem;
+     }
+ }
+
+ /* table size */
+ @media (min-width: 768px) and (max-width: 1024px) {
+     .slide div img {
+         height: 25rem;
+     }
+ }
