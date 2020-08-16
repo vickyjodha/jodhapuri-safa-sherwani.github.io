@@ -227,11 +227,15 @@
     <script src="css/js/demo.js"></script>
     <script>
         var a = $(window).width();
-        var y = a / 2.45;
-
+        if (a <= 450) {
+            var y = a / 1.45;
+        } else {
+            var y = a / 2.45;
+        }
 
         var height = $('img').css("height", y);
-        console.log(height);
+        //console.log(height);
+        // console.log(y, x);
     </script>
 </body>
 
